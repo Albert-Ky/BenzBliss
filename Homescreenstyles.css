@@ -1,0 +1,131 @@
+body {
+    font-family: serif;
+    margin: 0;
+    padding: 0;
+    background-color: teal;
+}
+
+
+header {
+    display: block;
+    background-color: solid black;
+    color: rgb(0, 255, 255);
+    padding: 20px;
+    background-image: url("images/background2.jpg");
+    backdrop-filter: brightness(40%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #000000;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0 50px;
+    flex-wrap: wrap;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 0;
+}
+.logo-container span{
+    color: silver;
+    align-items: center;
+    font-size: 30px;
+
+}
+
+nav ul {
+   list-style: none;
+   display: flex;
+   flex-wrap: wrap;
+   list-style: none;
+   margin: 0    ;
+   padding: 0   ;
+   float: right;
+
+
+}
+
+nav li {
+    display: inline-block;
+    position: relative;
+}
+
+nav li a {
+    display: block;
+    color: rgb(0, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+nav li a:hover {
+    background-color: silver;
+    border-radius: 10px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: silver;
+}
+
+.hero button {
+    padding: 15px 30px;
+    background-color: silver;
+    color: solid black;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: serif;
+}
+.hero button:hover{
+    color: antiquewhite;
+}
+
+.featured-cars {
+    text-align: center;
+    padding: 100px 0;
+    font-weight: bolder;
+    color: silver;
+}
+
+.car-card {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+    border-radius: 20px;
+    background:#0000006f;
+    transition: 0.5s ease-out;
+}
+
+.car-card:hover{
+transform: scale(1.2);
+
+}
+
+.car-card img {
+    width: 300px;
+}
+
